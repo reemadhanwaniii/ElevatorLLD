@@ -1,6 +1,6 @@
 # Elevator Design
 
-### Objective : Design a elevator for building with multiple floors.
+### Objective : Design and implement an Elevator System that can handle multiple requests, move between floors, and manage direction
 
 
 ## Functional Requirements:
