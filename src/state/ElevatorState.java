@@ -2,8 +2,11 @@ package state;
 
 import enums.Direction;
 
+import models.Elevator;
+import models.Request;
+
 public interface ElevatorState {
-    void move();
-    void addRequest();
+    void move(Elevator elevator);
+    void addRequest(Elevator elevator, Request request);
     Direction getDirection();
 }

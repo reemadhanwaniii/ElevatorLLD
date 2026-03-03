@@ -64,4 +64,8 @@ public class Elevator {
     public void setFloor(int floorNo) {
       this.floorNo.set(floorNo);
     }
+
+    public void setState(ElevatorState state) {
+     this.state = state;
+    }
 }
